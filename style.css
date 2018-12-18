@@ -1,0 +1,61 @@
+.header {
+    background: rgba(37,14,57,0.9);
+    padding: 16px 0px 17px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+.layout {
+    margin: auto;
+    max-width: 1440px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.staticNav {
+    display: flex;
+    flex-direction: row;
+}
+.logo_side {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+}
+#menu {
+    flex-direction: row;
+    display: flex;
+    margin-right: 100px;
+}
+#menu li {
+    line-height: 40px;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+    width: 100px;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#menu1 {
+    right: 300px;
+}
+#menu2 {
+    right: 150px;
+}
+.dropdown-list{
+    display: none;
+    position: absolute;
+    top: 52px;
+    right: 100px;
+    background: rgba(37,14,57,0.9);
+    width: 200px;
+    list-style: none;
+    padding: 0;
+}
