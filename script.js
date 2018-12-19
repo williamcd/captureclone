@@ -2,11 +2,10 @@ $(document).ready(function () {
     $("#menu li").hover(function () {
         $(".dropdown-list", this).delay(100).animate({ height: "toggle" })
     }, function () {
-        $(".dropdown-list", this).stop().delay(100).animate({ height: "toggle" }).addClass("hidden")
+        $(".dropdown-list", this).stop().delay(200).animate({ height: "toggle" })
+    })
+
+    $("#menu li").click(function() {
+        console.log(this.val)
     })
 })
-if ($(this).hasClass('hide')) {
-    $(this).animate({ height: 40 }, 200).removeClass('hide');
-} else {
-    $(this).animate({ height: 10 }, 200).addClass('hide');
-}
