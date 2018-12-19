@@ -62,3 +62,24 @@
     list-style: none;
     padding: 0;
 }
+.spacer-100 {
+    height: 100px;
+    width: 100%;
+}
+
+/* info divs */
+#about {
+    display: none;
+}
+#login {
+    display: none;
+}
+#more1 {
+    display: none;
+}
+#more2 {
+    display: none;
+}
+#more3 {
+    display: none;
+}

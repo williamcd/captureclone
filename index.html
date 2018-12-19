@@ -24,26 +24,39 @@
             </div>
             <!-- nav menu items -->
             <div id="menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Login</a></li>
+                <li onclick="toggle('about')" id="aboutToggle"><a href="#">About</a></li>
+                <li onclick="toggle('login')" id="loginToggle"><a href="#">Login</a></li>
                 <li id="dropdown"><a href="#">More...</a>
                     <ul id="menu3" class="dropdown-list">
-                        <li><a href="#">Contact a Salesperson</a></li>
+                        <li onclick="toggle('more1')" id="contactSales"><a href="#">Contact a Salesperson</a></li>
                         <hr />
-                        <li><a href="#">Contact Support</a></li>
+                        <li onclick="toggle('more2')" id="contactSupport"><a href="#">Contact Support</a></li>
                         <hr />
-                        <li><a href="#">Request Info</a></li>
+                        <li onclick="toggle('more3')"id="requestInfo"><a href="#">Request Info</a></li>
                     </ul>
                 </li>
             </div>
         </div>
     </header>
+    <div class="spacer-100"></div>
 
-    <div id="about"></div>
+    <div id="about">
+        about div
+    </div>
 
-    <div id="login"></div>
+    <div id="login">
+        login div
+    </div>
 
-    <div id="more"></div>
+    <div id="more1">
+        more1 div
+    </div>
+    <div id="more2">
+        more2 div
+    </div>
+    <div id="more3">
+        more3 div
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
