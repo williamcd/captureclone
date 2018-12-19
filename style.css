@@ -28,7 +28,6 @@
 #menu {
     flex-direction: row;
     display: flex;
-    margin-right: 100px;
 }
 #menu li {
     line-height: 40px;
@@ -49,11 +48,15 @@
 #menu2 {
     right: 150px;
 }
+#menu3 {
+    margin: 0 auto;
+    text-align: center;
+}
 .dropdown-list{
     display: none;
     position: absolute;
-    top: 52px;
-    right: 100px;
+    right: 25px;
+    top: 60px;
     background: rgba(37,14,57,0.9);
     width: 150px;
     list-style: none;
