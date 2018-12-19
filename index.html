@@ -15,8 +15,8 @@
             <!-- static stuff -->
             <div class="staticNav">
                 <div class="logo">
-                    <a href="#"><img src="https://capiocareers.com/wp-content/uploads/2018/03/CapioMasterLogo.svg" alt="Logo"
-                            width="119" height="47"></a>
+                    <a onclick="toggle('home')" href="#"><img src="https://capiocareers.com/wp-content/uploads/2018/03/CapioMasterLogo.svg"
+                            alt="Logo" width="119" height="47"></a>
                 </div>
                 <div class="logo_side">
                     <p>The Patient Financial Wellness Company</p>
@@ -32,31 +32,56 @@
                         <hr />
                         <li onclick="toggle('more2')" id="contactSupport"><a href="#">Contact Support</a></li>
                         <hr />
-                        <li onclick="toggle('more3')"id="requestInfo"><a href="#">Request Info</a></li>
+                        <li onclick="toggle('more3')" id="requestInfo"><a href="#">Request Info</a></li>
                     </ul>
                 </li>
             </div>
         </div>
     </header>
-    <div class="spacer-100"></div>
+    <div id="everything">
+        <div class="spacer-100"></div>
 
-    <div id="about">
-        about div
+        <div id="home">
+            <h2>A Fully Secured Online Web Portal</h2>
+            Capio Partners - Capio has over 35 years experience in the recovery of medical debt. Our expertise begins
+            from the point of the event and spans all aspects of healthcare recovery and billing. Our extensive
+            Healthcare Specific experience prepares us for any issue your patients may have, while providing the
+            highest quality services with our trademarked Complaintless Collections.
+        </div>
+
+        <div id="about">
+            Capture
+            Capture is a fully secure online web portal, designed to streamline the transmitting of patient data to
+            obtain a pricing analysis. Historically the gathering and processing of all necessary information was
+            cumbersome, time consuming, costly and inconvenient. The Capture system provides a streamlined,
+            user-friendly interface. The information is laid out in a logical manner with drag and click options to
+            increase proficiency. Capture allows the user to get done in minutes what was commonly done in days. The
+            reduction in data management increases efficiency and results in a cost saving to you. Since the portal is
+            online, the "on the go" healthcare executive has access anywhere at anytime.
+            <hr />
+            Capture is a revolutionary procedure enhancement and the first step to a long-term predictable cash flow.
+        </div>
+
+        <div id="login">
+            <input />
+            <input />
+            <button class="loginButton">login</button>
+        </div>
+
+        <div id="more1">
+            <input />
+            <input />
+            <input />
+            <button>submit</button>
+        </div>
+        <div id="more2">
+            more2 div
+        </div>
+        <div id="more3">
+            more3 div
+        </div>
     </div>
 
-    <div id="login">
-        login div
-    </div>
-
-    <div id="more1">
-        more1 div
-    </div>
-    <div id="more2">
-        more2 div
-    </div>
-    <div id="more3">
-        more3 div
-    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
