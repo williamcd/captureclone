@@ -15,7 +15,7 @@
             <!-- static stuff -->
             <div class="staticNav">
                 <div class="logo">
-                    <a onclick="toggle('home')" href="#"><img src="https://capiocareers.com/wp-content/uploads/2018/03/CapioMasterLogo.svg"
+                    <a href="https://www.capiopfw.com"><img src="https://capiocareers.com/wp-content/uploads/2018/03/CapioMasterLogo.svg"
                             alt="Logo" width="119" height="47"></a>
                 </div>
                 <div class="logo_side">
@@ -42,17 +42,17 @@
     <div id="everything">
         <div class="spacer-100"></div>
 
-        <div id="home">
+        <div id="about">
+            <img class="captureLogo" src="https://capiocareers.com/wp-content/uploads/2018/03/CapioMasterLogo.svg" alt="Logo"
+                width="119" height="47">
             <h2>A Fully Secured Online Web Portal</h2>
             <h4>Capio Partners</h4>
             Capio has over 35 years experience in the recovery of medical debt. Our expertise begins
             from the point of the event and spans all aspects of healthcare recovery and billing. Our extensive
             Healthcare Specific experience prepares us for any issue your patients may have, while providing the
             highest quality services with our trademarked Complaintless Collections.
-        </div>
-
-        <div id="about">
-            Capture
+            <br />
+            <h4>Capture</h4>
             Capture is a fully secure online web portal, designed to streamline the transmitting of patient data to
             obtain a pricing analysis. Historically the gathering and processing of all necessary information was
             cumbersome, time consuming, costly and inconvenient. The Capture system provides a streamlined,
@@ -65,20 +65,31 @@
         </div>
 
         <div id="login">
-            <h2>Login</h2>
-            <hr />
-            <div class="loginInputs">
-                <div>
-                    <h4 class="loginInputs--title">Username</h4>
-                    <input class="loginInputs--input"/>
+            <div class="loginBox">
+
+                <img class="captureLogo" src="https://capiocareers.com/wp-content/uploads/2018/03/CapioMasterLogo.svg"
+                    alt="Logo" width="119" height="47">
+                <h2>Login to Capture</h2>
+                <hr />
+                <div class="loginInputs">
+                    <div>
+                        <h4 class="loginInputs--title">Username</h4>
+                        <input class="loginInputs--input" />
+                    </div>
+                    <div>
+                        <h4 class="loginInputs--title">Password</h4>
+                        <input id="password" type="password" class="loginInputs--input" />
+                    </div>
+                    <input type="checkbox" onclick="togglePassword()">Show password </input>
                 </div>
-                <div>
-                    <h4 class="loginInputs--title">Password</h4>
-                    <input id="password" type="password" class="loginInputs--input"/>
-                </div>
-                <input type="checkbox" onclick="togglePassword()">Show password </input>
+                <button class="loginButton">login</button>
             </div>
-            <button class="loginButton">login</button>
+            <div class="loginInfo">
+                If you are a debt seller interested in doing business with Capio Partners and have not received the
+                proper
+                login information from one of our Sales associates, please contact Bill Rodgers at (678) 682-3680 ext.
+                6011.
+            </div>
         </div>
         <!-- more1-3 are each option on the more dropdown-list -->
         <div id="more1">
