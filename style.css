@@ -36,7 +36,7 @@
     list-style-type: none;
     margin: 10px;
     width: 150px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 #menu li:hover {
     background: rgba(37,14,57,0.9);
