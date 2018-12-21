@@ -65,8 +65,19 @@
         </div>
 
         <div id="login">
-            <input />
-            <input />
+            <h2>Login</h2>
+            <hr />
+            <div class="loginInputs">
+                <div>
+                    <h4 class="loginInputs--title">Username</h4>
+                    <input class="loginInputs--input"/>
+                </div>
+                <div>
+                    <h4 class="loginInputs--title">Password</h4>
+                    <input id="password" type="password" class="loginInputs--input"/>
+                </div>
+                <input type="checkbox" onclick="togglePassword()">Show password </input>
+            </div>
             <button class="loginButton">login</button>
         </div>
         <!-- more1-3 are each option on the more dropdown-list -->

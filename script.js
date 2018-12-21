@@ -37,4 +37,14 @@ function toggle(x) {
             $("#" + divArr[i]).fadeOut(100)
         }
     }
-}
+};
+
+// changes input type to either password or text
+function togglePassword() {
+    var input = document.getElementById("password")
+    if (input.type === "password") {
+        input.type = "text"
+    } else {
+        input.type = "password"
+    }
+};
