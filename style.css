@@ -106,31 +106,32 @@ button {
 #home {
     width: 80%;
     font-size: 25px;
+    display: block;
 }
 #about {
-    display: none;
     flex-direction: column;
     width: 80%;
     font-size: 25px;
+    display: flex;
 }
 #login {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 80%;
     align-items: center;
 }
 #more1 {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 80%;
 }
 #more2 {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 80%;
 }
 #more3 {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 80%;
 }
