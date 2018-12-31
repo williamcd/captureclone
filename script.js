@@ -27,10 +27,10 @@ function toggle(x) {
     for (i=0; i<divArr.length; i++) {
         // if input = an option, set that option's display to flex
         if (x === divArr[i]) {
-            $("#" + divArr[i]).delay(100).fadeIn(100)
+            $("#" + divArr[i]).delay(200).fadeIn(200)
         // all non-matching options are faded out
         } else {
-            $("#" + divArr[i]).fadeOut(100)
+            $("#" + divArr[i]).fadeOut(200)
         }
     }
 };
