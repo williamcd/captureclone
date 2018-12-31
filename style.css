@@ -163,12 +163,14 @@ button {
 #more2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 80%;
     font-family: 'Open Sans', sans-serif;
 }
 #more3 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 80%;
     font-family: 'Open Sans', sans-serif;
 }
