@@ -16,9 +16,20 @@
     flex-direction: row;
     justify-content: space-between;
 }
+body {
+    background-color: rgb(245,245,245);
+}
 .staticNav {
     display: flex;
     flex-direction: row;
+}
+.logo {
+    margin-top: 5px;
+}
+.capturelogo {
+    height: 100%;
+    width: 199px;
+    margin-left: 20px;
 }
 .logo_side {
     font-family: sans-serif;
