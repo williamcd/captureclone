@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // set all divs (except home) to display: none; initially.
     // this allows each div to use flex, as the fadeIn method defaults to display: block;
+
     const divArr = ["about", "more1", "more2", "more3"]
     var i;
     for (i=0; i<divArr.length; i++) {
